@@ -1,4 +1,4 @@
-# Laravel Code Sample – UsersRepository & DailyClosingController
+# Laravel Code Sample – UsersRepository & Controller
 
 This repository contains Laravel code samples I personally wrote for internal system use, including user authentication and automated daily closing PDF generation.
 
@@ -31,7 +31,7 @@ Handles user login, session management, API token authentication, and related da
 ---
 
 ## 📁 Code Sample 2: `DailyClosingController`
-Location: `app/Http/Controllers/DailyClosingController.php`
+Location: `app/Http/Controllers/Controller.php`
 
 Handles the generation and packaging of multiple daily financial reports into PDF and ZIP files, including upload to external API.
 
